@@ -5,6 +5,6 @@ node default {
     owner   => 'root',
    }
   service {'httpd':
-    enabled => 'true',
+    enable => 'true',
   }
 }
