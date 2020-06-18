@@ -1,5 +1,5 @@
 node default {
 }
-node 'ec2-13-48-48-77.eu-north-1.compute.amazonaws.com' {
+node 'ip-192-168-0-247.eu-north-1.compute.internal' {
   include role::master_server
  }
