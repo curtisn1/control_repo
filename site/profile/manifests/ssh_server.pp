@@ -6,7 +6,7 @@ class profile::ssh_server {
 		ensure => 'running',
 		enable => 'true',
 	}
-	ssh_authorized_key { 'root@master.puppet.vm':
+	ssh_authorized_key { 'root@ip-192-168-0-247.eu-north-1.compute.internal':
 		ensure => present,
 		user   => 'root',
 		type   => 'ssh-rsa',
