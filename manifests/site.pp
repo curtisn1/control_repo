@@ -13,6 +13,6 @@ node 'ip-192-168-0-247.eu-north-1.compute.internal' {
 node /^db/ {
   include role::db_server
  }
-node /^mine/ {
-  include role::minetest_server
+node 'minetest.puppet.vm' {
+  include role::minecraft_server
  }
